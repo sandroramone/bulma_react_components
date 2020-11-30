@@ -5,8 +5,8 @@
   "author": "sandroramone",
   "license": "MIT",
   "repository": "sandroramone/rbulma",
-  "main": "dist/index.js",
-  "module": "dist/index.modern.js",
+  "main": "lib/index.modern.js",
+  "module": "lib/index.modern.js",
   "source": "src/index.js",
   "engines": {
     "node": ">=10"
@@ -46,7 +46,7 @@
     "react-scripts": "^3.4.1"
   },
   "files": [
-    "dist"
+    "lib"
   ],
   "dependencies": {
     "bulma": "^0.9.1",
