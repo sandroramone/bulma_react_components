@@ -4,7 +4,6 @@
   "description": "bulma react components",
   "author": "sandroramone",
   "license": "MIT",
-  "repository": "sandroramone/rbulma",
   "main": "lib/index.modern.js",
   "module": "lib/index.modern.js",
   "source": "src/index.js",
@@ -22,7 +21,15 @@
     "test:watch": "react-scripts test --env=jsdom"
   },
   "peerDependencies": {
-    "react": "^16.0.0"
+    "react": "^16.0.0",
+    "bulma": "^0.9.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sandroramone/bulma_react_components.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.3",
